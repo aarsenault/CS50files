@@ -1,0 +1,31 @@
+0.  The longest word in the english language according to Oxford english dictionary
+
+1.  Gives information about how much resources were used 
+
+2.  16
+
+3.  We calculate before and after a lot. By passing in a refference instead of 
+copying it we save CPU time and memory
+
+4. The for loops starts by getting the next charachter in the file until the end of file 
+marker is reached. Next it checks that the charachter is a letter or apostrophe, but the apostrophe can't be
+the first charachter. The charachter is then put into the next spot in the word array. If the word array is then at
+the max word size - the rest of the letters are just burned through by a while loop with no actions taking place. 
+If a digit appears the same occurs. If the charachter is not alphanumeric or an apostrophy the word is done. I.e we 
+have reached a space or punctuation. We append the "\0" to the string and add 1 to the word count. We then get a readout
+of the time from getrusage, then use the check funtion to see if the word exists - if not it is misspelled which then 
+prints the words and adds one to the misspell count. The index is then set to 0 for the next word. This loop repeats until
+we hit the end of file marker. 
+
+5.  We use get string so we can check for special charachters, numbers, puntuation etc. along the way
+
+6.  Const is a type qualifyer which just means it shouldn't be modified. It would be bad if we accidentally modified the 
+word half way through an operation. 
+
+7.  Used a trie system with nodes that contained a node pointer array with 27 entries, and a boolean word checker.
+
+8.  Was not that slow, ran in 0.17 seconds, staff solution ran in 0.04
+
+9.  Tried to eliminate nested loops. 
+
+10. Biggest bottleneck is in unload - I think the recursive solution may not actually be the fastest

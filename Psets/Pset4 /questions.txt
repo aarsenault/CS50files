@@ -1,0 +1,47 @@
+0.  How many different colors does each format support? 
+    PNG: 24-bit RGB or 32-bit RGBA colors, GIF: 256 (8-bit) different colors chosen from the 24-bit RGB color space, JPEG: 24 Bit RGB
+    BMP: 32-bit color
+    
+
+1.  Which of the formats supports animation?
+    GIF
+
+
+2.  What’s the difference between lossy and lossless compression?
+    Lossy compression alters the pixels in a way that is not reversable when compressing (as opposed to lossless). 
+    This has the benefit of higher compression rates. 
+
+3.  Which of these formats is lossy-compressed?
+    JPEG, 
+    
+4. The clusters are "freed" and can be overwritten, but the data is not actually destroyed unless it is again used
+
+5. You could destroy your HD or SSD, or you could overwrite the drive with 0s
+
+6.  stdint.h is a header file that is pound included which defines standardized int types such as uint8_t etc. 
+
+7.  Using these standardized typedefs allows for greater portability of code to different compilers/platforms because the int types
+    have the same number of bits accross all platforms
+
+8.  BYTE: 8, DWORD: 32, LONG: 32, WORD: 16
+
+9.  BM
+
+10. bfSize: The size, in bytes, of the bitmap file.
+    biSize: The size, in bytes, of the structure
+    
+11. If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper-left corner
+
+12. biBitCount 
+
+13. If the pointer to the output file actually points to NULL (AKA there is no outputfile)
+
+14. we are reading a chunk of data the size of the whole file, 1 time. 
+
+15. 3
+
+16. allows you to adjust the address of the pointer to skip over the padding
+
+17. Means to change the pointer from it's current location (by the amount of padding)
+
+18. TODO

@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. Game supports squares that are n x n, where n is an int between 3 and 9
+1. Board is an int array of size n x n
+2. greet()
+3. init(), draw(), move(), won()

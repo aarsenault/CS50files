@@ -1,0 +1,25 @@
+a cat is caterpillar dog
+
+
+MY SOLUTION:
+
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.09
+TIME IN check:        0.02
+TIME IN size:         0.00
+TIME IN unload:       0.06
+TIME IN TOTAL:        0.17
+
+
+STAFF SOLUTION:
+
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.04
+TIME IN check:        0.02
+TIME IN size:         0.00
+TIME IN unload:       0.01
+TIME IN TOTAL:        0.08
